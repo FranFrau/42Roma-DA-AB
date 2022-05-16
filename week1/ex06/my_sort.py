@@ -21,7 +21,10 @@ def	order_musicians():
 		'Thompson' : '1949',
 		'Burton' : '1939',
 	}
-	for	x in sorted(d):
-		print(d[x], x)
+
+	sorted_musicians = sorted(sorted(d.items()), key=lambda x: x[1], reverse=False)
+
+	for i in sorted_musicians:
+		print(i[0], i[1])
 
 order_musicians()
