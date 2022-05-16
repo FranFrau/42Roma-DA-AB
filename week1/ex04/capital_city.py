@@ -1,4 +1,4 @@
-def find_states(state):
+def find_states(capital):
 	states = {
 		"Oregon" : "OR",
 		"Alabama" : "AL",
@@ -11,8 +11,8 @@ def find_states(state):
 		"NJ": "Trenton",
 		"CO": "Denver"
 	}
-	if state in states:
-		return capital_cities[states[state]]
+	if capital in states:
+		return capital_cities[states[capital]]
 	else:
 		return "Unknown state"
 
