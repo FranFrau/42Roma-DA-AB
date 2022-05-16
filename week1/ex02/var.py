@@ -1,4 +1,4 @@
-def	print_data_types():
+def	my_var():
 	number = 42
 	str = "42"
 	str_char = "quarante-deux"
@@ -19,4 +19,4 @@ def	print_data_types():
 	print(tuplenbr, "has a type <class 'tuple'>")
 	print(set(), "has a type <class 'set'>")
 
-print_data_types()
+my_var()
