@@ -1,3 +1,5 @@
+import sys
+
 def find_states(capital):
 	states = {
 		"Oregon" : "OR",
@@ -15,8 +17,6 @@ def find_states(capital):
 		return capital_cities[states[capital]]
 	else:
 		return "Unknown state"
-
-import sys
 
 if len(sys.argv) == 2:
 	print(find_states(sys.argv[1]))
