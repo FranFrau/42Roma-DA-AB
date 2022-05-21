@@ -25,6 +25,6 @@ def	order_musicians():
 	sorted_musicians = sorted(sorted(d.items()), key=lambda x: x[1], reverse=False)
 
 	for i in sorted_musicians:
-		print(i[0], i[1])
+		print(i[0])
 
 order_musicians()
